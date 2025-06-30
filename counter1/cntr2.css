@@ -1,0 +1,26 @@
+h1 {
+    margin-left:45%;
+    color:rgb(23, 23, 135)
+}
+#cntlab{
+   display:block;
+   text-align: center;
+   font-size: 10em;
+   font-family:'Times New Roman', Times, serif;
+
+}
+#btncon{
+    text-align: center;
+}
+.buttons{
+    padding:10px 20px;
+    font-size: 1.5em;
+    color:white;
+    background-color: rgb(191, 191, 223);
+    border-radius: 5px;
+    cursor: pointer;
+    transition:background-color 0.25s;
+}
+.buttons:hover{
+    background-color: rgb(84, 84, 194);
+}
