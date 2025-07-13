@@ -1,0 +1,24 @@
+body{
+    background-image:url(cloud1.png);
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    margin-right:50px;
+}
+#clock-cntr{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+     height:100vh;   
+}
+#clk{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    color:rgb(20, 11, 24);
+    text-align:center;
+    backdrop-filter: blur(5px);
+    /* background-color: hsl(90%, 0%, 0%); */
+    background-color: hsla(304, 57%, 47%, 0.1);
+    width:100%;
+}
